@@ -53,6 +53,27 @@ body {
     font-size: 1.05rem;
 }
 
+@media(max-width: 900px){
+    .landing-logo{
+        width: 250px;
+        margin-left: -20px;
+    }
+
+    .landing-card{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landing-card h1{
+        font-size: 1.7rem;
+    }
+
+    .landing-card a{
+        font-size: 0.8rem;
+        display: flex;
+    }
+}
+
 /* Navigation */
 
 .navbar{
